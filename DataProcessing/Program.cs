@@ -19,6 +19,7 @@ namespace DataProcessing
             var processor = new CSVProcessor();
             processor.DifferenceOfTwoFiles(FileNames["Oct"], FileNames["Dec"]);
             processor.DifferenceOfTwoFiles(FileNames["Dec"], FileNames["Jan"]);
+            Console.WriteLine("########## PRESS ANY KEY TO EXIT ###########");
             Console.ReadKey();
         }
     }
