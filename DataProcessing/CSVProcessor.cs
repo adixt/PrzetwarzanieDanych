@@ -12,7 +12,7 @@ namespace DataProcessing
     public class CSVProcessor
     {
         private readonly DirectoryInfo inputFolder = new DirectoryInfo(@"InputData\");
-        private readonly DirectoryInfo outputFolder = new DirectoryInfo(@"..\..\..\OutputData");
+        private readonly DirectoryInfo outputFolder = new DirectoryInfo(@"OutputData");
         private readonly Configuration csvConfiguration;
 
         public CSVProcessor()
