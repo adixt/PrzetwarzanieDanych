@@ -8,16 +8,17 @@ namespace DataProcessing
         public string Platform { get; set; }
         public int Year_of_Release { get; set; }
         public string Genre { get; set; }
+        public string Publisher { get; set; }
         public decimal NA_Sales { get; set; }
         public decimal EU_Sales { get; set; }
         public decimal JP_Sales { get; set; }
         public decimal Other_Sales { get; set; }
         public decimal Global_Sales { get; set; }
-        public string Publisher { get; set; }
         public int Critic_Score { get; set; }
         public int Critic_Count { get; set; }
         public int User_Score { get; set; }
         public int User_Count { get; set; }
+        public string Developer { get; set; }
         public string Rating { get; set; }
     }
     public class OutputClassEqualityComparer : IEqualityComparer<OutputClass>
